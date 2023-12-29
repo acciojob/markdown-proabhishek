@@ -26,7 +26,7 @@ function App(){
     return(
       <div className="app">
         <textarea onChange={handleChange}/>
-        <Markdown>{markdown}</Markdown>
+        <Markdown className="preview">{markdown}</Markdown>
       </div>
     )
 }
